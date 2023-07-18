@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans:ital@1&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap');
+*{
+    margin: 0 auto;
+    font-family: 'Chela One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 85px;
+    color: white;
+    background-color: rgb(0, 0, 0)
+}
+.z{
+    color: linear-gradient(to right top, red, pink );
+}
+.hdr{
+    display: flex;
+    align-items: center;
+}
+.hdr h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.hdr img{
+    width: 35px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+nav>ul>li{
+    list-style-type: none;
+    float: left;
+    margin-left: 30px;
+}
+nav>ul>li:first-child{
+    margin-left: 0px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.follow{
+    padding-left: 0px;
+    margin-left: 15px;
+    width: 221px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.301);
+    border-radius: 5px;
+}
+.follow li{
+    list-style-type: none;
+    float: left;
+    margin-left: 0px;
+}
+.follow li:first-child{
+    margin-left: 15px;
+}
+.follow a{
+    text-decoration: none;
+}
+.icon1{
+    width: 20px;
+}
+.icon2{
+    width: 15px;
+}
+.bnr{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.bnr-cntnt{
+    width: 355px;
+    
+}
+.bnr h1{
+    color: white;
+}
+.w{
+    font-weight: 500;
+}
+.m{
+    font-weight: 700;
+    color: rgb(212 6 39);
+}
+.bnr-cntnt ul{
+    padding-left: 0px;
+}
+.bnr li{
+    list-style-type: none;
+    margin: 20px 0px 0px 0px;
+}
+.bnr li a{
+    text-decoration: none;
+    color: white;
+}
+.icon3{
+    width: 20px;
+}
+button{
+    margin-top: 20px;
+    width: 110px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.bnr-img{
+    margin: 0px;
+    display: flex;
+}
+.icon4{
+    width: 265px;
+    height: 416px;
+}
+
+
+/* --------------------responsive------------------------- */
+/* For mobile */
+@media screen and (max-width:576px){
+    header{
+        flex-direction: column;
+        height: 175px;
+        padding-bottom: 15px;
+        background-color: black ;
+    }
+    nav{
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    nav>ul{
+        padding: 0px;
+    }
+    nav>ul>li{
+        float: none;
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+    }
+    .follow{
+        margin-top: 20px;
+        width: 228px;
+    }
+    .follow li{
+        margin: 0px 30px 0px 0px;
+    }
+    .bnr{
+        flex-direction: column;
+        text-align: center;
+    }
+    .bnr-img{
+        margin-top: 20px;
+    }
+    .icon4{
+        width: 115px;
+        height: 180px;
+    }
+}
+
+
+
+
+
